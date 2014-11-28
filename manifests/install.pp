@@ -4,7 +4,7 @@
 class openduty::install {
 
   package {'openduty':
-    ensure   => '2.1-1',
+    ensure   => '1.1.2-1',
   }
 
 }
