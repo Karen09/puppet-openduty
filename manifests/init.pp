@@ -2,20 +2,20 @@
 #
 #Initialization class for the openduty  agent
 class openduty (
-  $TIME_ZONE       = $openduty::params::TIME_ZONE,
-  $DEBUG           = $openduty::params::DEBUG,
-  $TEMPLATE_DEBUG  = $openduty::params::TEMPLATE_DEBUG,
-  $LOGIN_URL       = $openduty::params::LOGIN_URL,
-  $ALLOWED_HOSTS   = $openduty::params::ALLOWED_HOSTS,
-  $BROKER_URL      = $openduty::params::BROKER_URL,
-  $USE_I18N        = $openduty::params::USE_I18N,
-  $USE_L10N        = $openduty::params::USE_L10N,
-  $USE_TZ          = $openduty::params::USE_TZ,
-  $SECRET_KEY      = $openduty::params::SECRET_KEY,
-  $STATIC_URL      = $openduty::params::STATIC_URL,
-  $LANGUAGE_CODE   = $openduty::params::LANGUAGE_CODE,
-  $BASE_URL        = $openduty::params::BASE_URL,
-  $ROOT_URLCONF    = $openduty::params::ROOT_URLCONF,
+  $time_zone       = $openduty::params::time_zone,
+  $debug           = $openduty::params::debug,
+  $template_debug  = $openduty::params::template_debug,
+  $login_url       = $openduty::params::login_url,
+  $allowed_hosts   = $openduty::params::allowed_hosts,
+  $broker_url      = $openduty::params::broker_url,
+  $use_i18n        = $openduty::params::use_i18n,
+  $use_l10n        = $openduty::params::use_l10n,
+  $use_tz          = $openduty::params::use_tz,
+  $secret_key      = $openduty::params::secret_key,
+  $static_url      = $openduty::params::static_url,
+  $language_code   = $openduty::params::language_code,
+  $base_url        = $openduty::params::base_url,
+  $root_urlconf    = $openduty::params::root_urlconf,
 ) inherits openduty::params {
 
 
